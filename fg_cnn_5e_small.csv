@@ -1,0 +1,7 @@
+Epsilon,FG,PCA Retrain,KPCA Retrain,,,
+0.001,12.01,0.2012,0.1142, python3 run_defense.py -m cnn --n_epoch=5 -d retrain --small,,
+0.5008,8.99,0.2002,0.1142,run_defense.py -m cnn --n_epoch=5 -d retrain --small -dr kernel-pca -nd 100 -k rbf ,,
+1.0006,7.75,0.1974,0.1142,,,
+1.5004,7.06,0.195,0.1142,,,
+2.0002,6.78,0.1942,0.1142,,,
+2.5,6.59,0.1894,0.1142,,,

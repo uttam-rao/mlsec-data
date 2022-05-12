@@ -1,0 +1,7 @@
+Epsilon,FG Attack,Recons,Retrain,,,
+0.001,38.66,22.600,0.1142,python3 cosc189-project/run_defense.py --n_epoch=100 -d retrain -dr kernel-pca -nd 100 -k rbf -g .035 --small,,
+0.5008,33.45,32.740,0.1142,python3 run_defense.py --n_epoch=100 -d recons --rev -dr kernel-pca -nd 100 -k rbf -g .035 --small,,
+1.0006,27.43,43.560,0.1142,,,
+1.5004,20.45,56.260,0.1142,,,
+2.0002,12.63,68.940,0.1142,,,
+2.5,6.56,82.520,0.1142,,,

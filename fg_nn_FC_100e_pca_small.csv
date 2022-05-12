@@ -1,0 +1,7 @@
+Epsilon,FG Attack,Recons,Retrain,,,
+0.001,39.66,21.780,0.7996,python3 run_defense.py --n_epoch=100 -d retrain -g .035 --small,,
+0.5008,34.24,31.020,0.7224,python3 run_defense.py --n_epoch=100 -d recons --rev -g .035 --small,,
+1.0006,27.24,41.620,0.6252,,,
+1.5004,19.80,53.200,0.515,,,
+2.0002,12.14,65.560,0.383,,,
+2.5,5.76,79.020,0.2438,,,
